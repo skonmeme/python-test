@@ -1,18 +1,14 @@
 name: Python test
 
 on: 
-  push:
-    branches:
-    - master
-    - develop
-    - feature/**
   pull_request:
     branches:
-    - master
+    - main
     - develop
 
 jobs:
   build:
+    name: python test
     runs-on: ubuntu-22.04
 
     steps:
