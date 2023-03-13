@@ -1,11 +1,6 @@
 name: Python test
 
 on: 
-  push:
-    branches:
-    - master
-    - develop
-    - feature/**
   pull_request:
     branches:
     - master
